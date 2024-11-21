@@ -162,7 +162,7 @@ namespace FiftyOne
         /// <summary>
         /// コール
         /// </summary>
-        public int Call()
+        public int Call(bool isCallFromCpu)
         {
             // 得点計算から勝敗判定
             int cpuScore = CalculateScore(true);
@@ -173,7 +173,18 @@ namespace FiftyOne
             Console.WriteLine(String.Format("相手:{0}点　自分:{1}点", cpuScore, ownScore));
             Console.WriteLine(isWin() ? "相手の勝ち" : "自分の勝ち");
 
-            return isWin() ? 10 : -10;
+            if (isCallFromCpu)
+            {
+                //CpuがコールしてPlayerが勝利(?): 敗北(?)
+                //return !isWin() ? 10 : -10;
+            }
+            else
+            {
+                //Playerがコールして勝利(10): 敗北(-10)
+                return isWin() ? 10 : -10;
+            }
+
+            return 0;
         }
 
 
