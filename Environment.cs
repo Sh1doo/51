@@ -182,7 +182,7 @@ namespace FiftyOne
         /// </summary>
         public bool isWin()
         {
-            return CalculateScore(true) > CalculateScore(false);
+            return CalculateScore(isCpu: false) >= CalculateScore(isCpu: true);
         }
 
         /// <summary>
