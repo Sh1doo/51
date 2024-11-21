@@ -1,0 +1,14 @@
+/Users/shido/Documents/授業/情報工学特論/51/obj/Debug/net7.0/51.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shido/Documents/授業/情報工学特論/51/obj/Debug/net7.0/51.AssemblyInfoInputs.cache
+/Users/shido/Documents/授業/情報工学特論/51/obj/Debug/net7.0/51.AssemblyInfo.cs
+/Users/shido/Documents/授業/情報工学特論/51/obj/Debug/net7.0/51.csproj.CoreCompileInputs.cache
+/Users/shido/Documents/授業/情報工学特論/51/bin/Debug/net7.0/51
+/Users/shido/Documents/授業/情報工学特論/51/bin/Debug/net7.0/51.deps.json
+/Users/shido/Documents/授業/情報工学特論/51/bin/Debug/net7.0/51.runtimeconfig.json
+/Users/shido/Documents/授業/情報工学特論/51/bin/Debug/net7.0/51.dll
+/Users/shido/Documents/授業/情報工学特論/51/bin/Debug/net7.0/51.pdb
+/Users/shido/Documents/授業/情報工学特論/51/obj/Debug/net7.0/51.dll
+/Users/shido/Documents/授業/情報工学特論/51/obj/Debug/net7.0/refint/51.dll
+/Users/shido/Documents/授業/情報工学特論/51/obj/Debug/net7.0/51.pdb
+/Users/shido/Documents/授業/情報工学特論/51/obj/Debug/net7.0/51.genruntimeconfig.cache
+/Users/shido/Documents/授業/情報工学特論/51/obj/Debug/net7.0/ref/51.dll
