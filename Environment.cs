@@ -144,8 +144,8 @@ namespace FiftyOne
         {
             for (int i = 0; i < MAX_CARD; i++)
             {
-                Cards tmp = stock.RemoveFirst();
-                tableCard[i] = tmp;
+                Cards tmp = tableCard[i];
+                tableCard[i] = stock.RemoveFirst();
                 stock.AddLast(tmp);
             }
             return 0;
